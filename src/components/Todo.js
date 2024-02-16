@@ -79,6 +79,7 @@ function Todo() {
 
     return (
         <div className="todo-container">
+            <h2 className='header'>To-do List</h2>
             <div className="create-task" >
                 <CreateTask addTask={addTask} />
             </div>
